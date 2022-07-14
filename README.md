@@ -1,4 +1,4 @@
-# Additional Info:
+# Important Note:
 
 This is a fork of the main Leaflet.VectorGrid repo. The current version of leaflet.vectorgrid in NPM is outdated and contains a bug that doesn't allow for click events to work on point protobuf objects. This is fixed in the master branch of the Leaflet.VectorGrid repo, but the sourcecode was never built, meaning you can't use NPM to download it from github. This repo just contains that built version.
 
