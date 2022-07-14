@@ -3,14 +3,6 @@
   "version": "2.0.0",
   "description": "Display gridded vector data (sliced GeoJSON or protobuf vector tiles) in Leaflet 1.0",
   "main": "dist/Leaflet.VectorGrid.bundled.min.js",
-  "scripts": {
-    "test": "exit 0",
-    "prepublish": "node_modules/.bin/gobble build -f dist/",
-    "build": "node_modules/.bin/gobble build -f dist/",
-    "lint": "eslint src",
-    "lintfix": "eslint --fix src",
-    "start": "node_modules/.bin/gobble"
-  },
   "keywords": [
     "leaflet",
     "vector",
