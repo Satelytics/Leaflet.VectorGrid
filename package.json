@@ -1,5 +1,5 @@
 {
-  "name": "@bagage/leaflet.vectorgrid",
+  "name": "@satelytics/leaflet.vectorgrid",
   "version": "2.0.0",
   "description": "Display gridded vector data (sliced GeoJSON or protobuf vector tiles) in Leaflet 1.0",
   "main": "dist/Leaflet.VectorGrid.bundled.min.js",
