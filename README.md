@@ -2,6 +2,8 @@
 
 This is a fork of the main Leaflet.VectorGrid repo. The current version of leaflet.vectorgrid in NPM is outdated and contains a bug that doesn't allow for click events to work on point protobuf objects. This is fixed in the master branch of the Leaflet.VectorGrid repo, but the sourcecode was never built, meaning you can't use NPM to download it from github. This repo just contains that built version.
 
+If you are trying to re-build this, you will have to rename the package.json to something else and rename the package-build.json to package.json. Then you will be able to build it. This is needed because specifying dependencies in the package.json file that you use in your project causes NPM to download them and try to build the project which doesn't work unless your project is using an old version of Node.js.
+
 # Leaflet.VectorGrid
 
 Display gridded vector data (sliced [GeoJSON](https://geojson.org/), [TopoJSON](https://github.com/mbostock/topojson/wiki) or [protobuf vector tiles](https://github.com/mapbox/vector-tile-spec)) in [Leaflet](https://www.leafletjs.com) 1.0.0
