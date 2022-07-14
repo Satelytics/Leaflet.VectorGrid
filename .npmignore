@@ -8,5 +8,3 @@ aux
 .gobble-build
 yarn.lock
 docs
-leafdoc-templates
-src
